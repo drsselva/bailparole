@@ -21,16 +21,20 @@ h6 {
 }
 
 a {
-    color: #454545;
+  font-family: 'Roboto', sans-serif;
+    color:#121518;
+	font-weight:1000;
+	font-size:14px;
     transition: .3s;
 }
 
 a:hover,
 a:active,
 a:focus {
-    color: #aa9166;
+    color: #1134A6;
     outline: none;
     text-decoration: none;
+	
 }
 
 .btn:focus {
@@ -40,7 +44,7 @@ a:focus {
 .wrapper {
     position: relative;
     width: 100%;
-    max-width: 1600px;
+    max-width: 1400px;
     margin: 0 auto;
     background: #ffffff;
 }
@@ -182,6 +186,7 @@ a:focus {
     position: relative;
     padding: 20px 0;
     transition: .3s;
+	
 }
 
 .nav-bar.nav-sticky {
@@ -204,6 +209,7 @@ a:focus {
 .navbar-dark .navbar-nav .nav-link.active {
     padding: 10px 10px 8px 10px;
     color: #ffffff;
+	
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -212,16 +218,20 @@ a:focus {
     transition: none;
 }
 
+.navbar-toggler
+{
+background-color:#666666;
+}
 .nav-bar .dropdown-menu {
     margin-top: 0;
     border: 0;
     border-radius: 0;
-    background: #f8f9fa;
+    background:#c2baa9;
 }
 
 .nav-bar .btn {
     color: #ffffff;
-    border: 2px solid #aa9166;
+    border: 2px solid #121518;
     border-radius: 0;
 }
 
@@ -240,7 +250,8 @@ a:focus {
     
     .nav-bar,
     .nav-bar .navbar {
-        background: #121518 !important;
+        background:#ad9461 !important;
+		
     }
     
     .nav-bar .navbar-brand {
@@ -258,7 +269,7 @@ a:focus {
     .nav-bar,
     .nav-bar .navbar {
         padding: 3px 0;
-        background: #121518 !important;
+        background: #ad9461 !important;
     }
     
     .nav-bar a.nav-link {
@@ -266,7 +277,7 @@ a:focus {
     }
     
     .nav-bar .dropdown-menu {
-        box-shadow: none;
+        box-shadow:none;
     }
     
     .nav-bar .btn {
