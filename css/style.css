@@ -22,7 +22,7 @@ h6 {
 
 a {
   font-family: 'Roboto', sans-serif;
-    color:#121518;
+    color:#ffffff;
 	font-weight:1000;
 	font-size:14px;
     transition: .3s;
@@ -44,7 +44,7 @@ a:focus {
 .wrapper {
     position: relative;
     width: 100%;
-    max-width: 1400px;
+   
     margin: 0 auto;
     background: #ffffff;
 }
@@ -236,7 +236,7 @@ background-color:#666666;
 }
 
 .nav-bar .btn:hover {
-    background: #aa9166;
+    background: #3232ff;
 }
 
 @media (min-width: 992px) {
