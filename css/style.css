@@ -121,16 +121,25 @@ a:focus {
 
 .top-bar .text h2 {
     color: #ffffff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'league spartan', sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 24px;
+    font-size: 18px;
+    margin: 0;
+}
+
+.top-bar .text h4 {
+    color: #ffffff;
+    font-family: 'league spartan', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
     margin: 0;
 }
 .top-bar .text h3 {
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-style: normal;
     font-size: 10px;
     margin: 0;
@@ -173,11 +182,24 @@ a:focus {
     .top-bar {
         padding: 0 60px;
     }
+   
 }
 
 @media (max-width: 991.98px) {
-    .top-bar .logo {
-        text-align: center;
+    
+
+   
+
+    .top-bar .text  h4{
+        font-size: 7px;
+    }
+
+    .top-bar .text  h2{
+        font-size: 8px;
+    }
+
+    .top-bar .text  h3{
+        font-size: 6px;
     }
     
     .top-bar .social {
