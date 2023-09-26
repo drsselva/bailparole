@@ -79,8 +79,8 @@ a:focus {
 /**********************************/
 .top-bar {
     position: relative;
-    height: 90px;
-    background: #0a0a0a;
+    height: 70px;
+    background: #260604f5;
 }
 
 .top-bar .logo {
@@ -122,9 +122,17 @@ a:focus {
 .top-bar .text h2 {
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     font-style: normal;
-    font-size: 25px;
+    font-size: 24px;
+    margin: 0;
+}
+.top-bar .text h3 {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
     margin: 0;
 }
 
@@ -183,6 +191,7 @@ a:focus {
 /**********************************/
 .nav-bar {
     position: relative;
+    height: 120px;
     padding: 20px 0;
     transition: .3s;
 	
