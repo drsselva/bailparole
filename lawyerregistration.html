@@ -53,6 +53,7 @@
             text-align:right;
         }
         
+    .style1 {color: #000000}
     </style>
     <title>Lawyer Registration</title>
     <script type="text/javascript">
@@ -219,12 +220,18 @@
                         <label for="Bar Council Id" class="form-label">Bar Council Id:</label>
                         <input type="text" class="form-control" id="Bar Council Id" name="Bar Council Id" required>
                     </div>
-                    <div class="mb-3">
+                    <!-- <div class="mb-3">
                         <label for="ID No:" class="form-label">ID No:</label>
                         <input type="text" class="form-control" id="ID No:" name="ID No:" required>
+                    </div> -->
+
+                    <div class="mb-3">
+                        <label for="State:" class="form-label">State</label>
+                        <input type="text" class="form-control" id="State:" name="State:" required>
                     </div>
                      
-                    <div class="mb-3">
+                     
+                    <!-- <div class="mb-3">
                         <label for="fullName" class="form-label">Year:</label>
                         <select class="form-select" aria-label="Default select example">
                             <option value="" disabled selected>--Select Your Year -- </option>
@@ -304,7 +311,7 @@
                             <option value="">2023</option>
                             
                           </select>
-                    </div>
+                    </div> -->
                     <!-- <div class="mb-3">
                         <label for="fullName" class="form-label">Gender</label>
                         <div class="form-check">
@@ -321,16 +328,14 @@
                           </div> -->
                         <!-- <input type="text" class="form-control" id="fullName" name="fullName" required> -->
                     <!-- </div> -->
-                    <div class="mb-3">
-                        <!-- <select id="countrySelect" size="1" onchange="makeSubmenu(this.value)">
-        
-        </select>
-        
-        <button onclick="displaySelected()">show selected</button> -->
+                    
+                    
+                    <!-- <div class="mb-3">
+                        
                         <label for="fullName" class="form-label">State:</label>
                         <select  id="countrySelect"  size="1" class="form-select" onChange="makeSubmenu(this.value)">
                            
-                        <!-- <option value="" disabled selected> --Select Your State --</option> -->
+                       
                         <option value="" disabled selected>Choose State</option>
                         <option>Odisha</option>
                         <option>Maharashtra</option>
@@ -375,18 +380,26 @@
                             
 
                           </select>
-                    </div>
+                    </div> -->
                     <!--  -->
-                    <div class="mb-3">
+                    <!-- <div class="mb-3">
                         <label for="fullName" class="form-label">City:</label>
                         <select id="citySelect" size="1"  class="form-select" >
                             <option  value="" disabled selected > --Select Your City --  </option>
                             <option></option>
                           </select>
-                    </div>
+                    </div>  -->
                    
+                    <div class="mb-3">
+                        <label for="District:" class="form-label">District</label>
+                        <input type="text" class="form-control" id="district:" name="District:" required>
+                    </div>
+
                     <div style="text-align: center;">
-                    <button type="submit"  class="btn btn-primary btn-lg ">Register</button>
+                      <div align="left"></div>
+                      <div align="center"><a href="talktous.html" class="style1">Terms of Use and Aggrement Policy
+                      </a></div>
+                      <button type="submit"  class="btn btn-primary btn-lg ">Register</button>
                     <!-- <button type="submit" id ="a" class="btn btn btn-primary btn-lg " id="clearButton">Clear</button>
                     <button type="submit" id ="a" class="btn btn btn-primary btn-lg ">Back</button> -->
                 </div>
