@@ -1,895 +1,998 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
-<head>
-        <meta charset="utf-8">
-        <title>BAIL PAROLE-First bail parole help website</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="First bail help website in tamil nadu" name="keywords">
-        <meta content="" name="description">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="Bailparole" />
+        <title>Bailparole | First Bail Parole Help Website</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+		<!-- Google fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+		<!-- Bootstrap Styles -->
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<!-- Themify Icon -->
+		<link rel="stylesheet" href="css/themify-icons.css" >
+		<!-- Font Awsome Icon -->
+		<link rel="stylesheet" href="css/font-awesome.css" >
+		<link rel="stylesheet" href="css/bootstrap-icons.css">
+		<!-- Magnific PopUp -->
+		<link rel="stylesheet" href="css/magnific-popup.css" >		
+		<!--  Owl Carousel Styles -->
+		<link rel="stylesheet" href="css/owl.carousel.min.css" >
+		<!--  Owl Thumbs Styles -->
+		<link rel="stylesheet" href="css/owl.carousel.thumbs.css">
+		<!-- YT Player -->
+		<link rel="stylesheet" href="css/jquery.mb.YTPlayer.min.css" >
+		<!-- Site Styles -->
+		<link rel="stylesheet" href="css/styles.css" />	
+	</head>
+	<body data-nav-offset="58">
+	
+		<!-- Page Loader -->
+		<div class="page-loader"></div>	
+			
+		<!-- Mobile Menu -->
+		<div class="mobile-menu-wrapper d-lg-none">
+			<a href="#" class="mobile-menu-toggle"><span class="toggle-lines"></span></a>
+			<div class="mobile-logo-wrap mt-5 mb-4 text-center">
+				<a href="#" class="mobile-logo-link"><img class="img-fluid" src="images/sticky-logo.png" alt="Bailparole" /></a>
+			</div>
+		</div>
+		
+		<!-- Overlay Search Form -->
+		<div class="search-overlay-wrap">
+			<a href="#" class="abs-trigger-right overlay-search-close overlay-search-trigger"><span class="ti-close text-light"></span></a>
+			<div class="search-overlay-inner">
+				<form class="search-form">
+					<div class="input-group">
+						<input type="text" name="s" class="form-control" placeholder="Search for..">
+						<div class="input-group-append">
+							<button class="btn btn-primary" type="submit"><span class="bi bi-search"></span></button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div><!-- .search-overlay-wrap -->
+		
+		<!-- Sigin/Register Form -->
+		<div class="user-login-form-wrap">
+			<a href="#" class="signin-form-trigger abs-trigger-right"><span class="ti-close text-light"></span></a>	
+			<div class="user-login-inner">
+				<div class="user-login-wrap rounded active">
+					<h5 class="text-center mt-2 mb-3">Login Form</h5>
+					<form class="signin-form mb-3">
+						<div class="form-group">
+							<label>Username</label>
+							<input type="text" class="form-control" name="username">
+						</div>
+						<div class="form-group">
+							<label>Password</label>
+							<input type="password" class="form-control" name="password">
+						</div>
+						<div class="form-group">
+							<a href="#" class="trigger-register-form">Register</a> / <a href="#" class="trigger-forget-form">Forget password?</a>
+						</div>
+						<input type="submit" name="logsubmit" class="btn btn-primary mt-2" value="Signin">
+					</form>
+				</div>
+				<div class="forget-password-wrap rounded">
+					<a href="#" class="trigger-login-form abs-trigger-right"><span class="ti-close"></span></a>
+					<h5 class="text-center mt-2 mb-3">Forget Password Form</h5>
+					<form class="forget-password-form mb-3">
+						<div class="form-group">
+							<label>Email</label>
+							<input type="text" class="form-control" name="useremail">
+						</div>
+						<input type="submit" name="forgetsubmit" class="btn btn-primary mt-2" value="Submit">
+					</form>
+				</div>
+				<div class="user-registration-wrap rounded">
+					<a href="#" class="trigger-login-form abs-trigger-right"><span class="ti-close"></span></a>
+					<h5 class="text-center mt-2 mb-3">Registration Form</h5>
+					<form class="register-form mb-3">
+						<div class="form-group">
+							<label>Email</label>
+							<input type="text" class="form-control" name="useremail">
+						</div>
+						<div class="form-group">
+							<label>Username</label>
+							<input type="text" class="form-control" name="username">
+						</div>
+						<div class="form-group">
+							<label>Password</label>
+							<input type="password" class="form-control" name="password">
+						</div>
+						<div class="form-group">
+							<label>Confirm Password</label>
+							<input type="password" class="form-control" name="confirmpassword">
+						</div>
+						<input type="submit" name="registersubmit" class="btn btn-primary mt-2" value="Register">
+					</form>
+				</div>
+			</div><!-- .user-login-inner -->			
+		</div><!-- .user-login-form-wrap -->
+		
+		<!--Header-->
+		<header class="masterhead">
+		
+			<!-- Topbar for Desktop | Top Sliding Bar for Tablet/Mobile -->
+			<div class="set-mobile-top-sliding">
+				<div class="header-topbar light-style-bar pt-2 pb-2 p-lg-0">
+					<div class="container">
+						<div class="header-parts-wrap">
+							<div class="header-parts-nav d-lg-flex">
+								<div class="header-left d-lg-flex">
+									<div class="topbar-info-wrap">
+										<ul class="nav justify-content-center">
+											<li><span class="welome-text">Welcome to Bailparole</span></li>
+										</ul>
+									</div>
+								</div><!-- .header-left -->
+								<div class="header-right d-lg-flex ml-lg-auto">
+									<div class="topbar-info-wrap">
+										<ul class="nav justify-content-center">
+											<li><a href="#"> <img src="images/icons/justice.svg" class="img-fluid mr-2" alt="Justice"> Free Legal Advice</a></li>
+											<li><a href="tel:+91-123456789"><img src="images/icons/viber.svg" class="img-fluid mr-2" alt="Phone Number"> +91-123456789</a></li>
+											<li><a href="#" > <img src="images/icons/team.svg" class="img-fluid mr-2" alt="Team"> Our Team</a></li>
+											<li><a href="#" > <img src="images/icons/contact-us.svg" class="img-fluid mr-2" alt="About Us"> About US</a></li>
+											<li><a href="#" > <img src="images/icons/blog.svg" class="img-fluid mr-2" alt="Blog"> Legal Blog</a></li>
+											<li><a href="#" > <img src="images/icons/login.svg" class="img-fluid mr-2" alt="Login"> Login</a></li>
+										</ul>
+									</div>
+								</div><!-- .header-right -->
+							</div><!-- .header-parts-nav -->
+						</div><!-- .header-parts-wrap -->
+					</div><!-- .container -->
+				</div><!-- .header-topbar -->
+			</div><!-- .set-header-sticky -->
+			<!-- Set Header Sticky  -->
+			<div class="set-header-sticky">				
+				<!-- Navbar for Desktop -->
+				<div class="header-navbar d-none d-lg-flex">
+					<div class="container">
+						<div class="header-parts-wrap">
+							<div class="header-parts-nav d-flex">
+								<div class="header-left d-flex">
+									<div class="header-left justify-content-start d-flex">
+										<!-- Site Logo -->
+										<div class="logo-wrap">
+											<a href="index.html" class="site-logo default-logo"><img class="img-fluid" alt="Bailparole" src="images/logo.png"></a>
+										</div>
+									</div><!-- .header-left -->	
+									<!-- Logo Wrapper -->
+									<div class="logo-wrap m-0">
+										<a href="index.html" class="site-logo sticky-logo"><img class="img-fluid mr-3" alt="Bailparole" src="images/sticky-logo.png"></a>
+									</div>
+									
+								</div> <!-- .header-left -->
+								<div class="header-right d-flex align-self-center ml-auto">
+									<!-- Site Menu -->
+									<ul class="nav site-menu d-none d-lg-flex">
+										<li class="nav-item active"><a href="#">Home</a></li>
+										<li class="nav-item"><a href="#">Lawyer’s login</a></li>
+										<li class="nav-item"><a href="#">Bail</a></li>
+										<li class="nav-item"><a href="#">Anticipatory Bail</a></li>
+										<li class="nav-item"><a href="#">Parole</a></li>
+										<li class="nav-item"><a href="#">Writ</a></li>
+									</ul>
+								</div><!-- .header-right -->
+							</div><!-- .header-parts-nav -->
+						</div><!-- .header-parts-wrap -->
+					</div><!-- .container -->
+				</div><!-- .header-navbar -->
+				
+				<!-- Mobile Header for Tablet/Mobile -->
+				<div class="mobile-header d-flex d-lg-none">
+					<div class="container">
+						<div class="header-parts-wrap">
+							<div class="header-parts-nav d-flex">
+								<div class="header-left d-flex">
+									<div class="logo-wrap">
+										<a href="index.html" class="site-logo default-logo"><img class="img-fluid" alt="Bailparole" src="images/logo.png"></a>
+										<a href="index.html" class="site-logo sticky-logo"><img class="img-fluid" alt="Bailparole" src="images/sticky-logo.png"></a>
+									</div>
+								</div> <!-- .header-left -->
+								<div class="header-right d-flex ml-auto">
+									<a href="#" class="mobile-menu-toggle"><span class="toggle-lines"></span></a>
+									<div class="search-trigger-wrap">
+										<a href="#" class="search-trigger overlay-search-trigger"><span class="ti-search"></span></a>
+									</div>
+								</div><!-- .header-right -->
+							</div><!-- .header-parts-nav -->
+						</div><!-- .header-parts-wrap -->
+					</div><!-- .container -->
+				</div><!-- .mobile-header -->
+			</div><!-- .header-sticky-part -->
+			
 
-        <!-- Favicon -->
-        <link href="img/favicon.png" rel="icon"> 
-        <link href="img/favicon.png" rel="apple-touch-icon">
-        
 
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600;1,700;1,800&amp;family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet"> 
-        
-        <!-- CSS Libraries -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/all.min.css" rel="stylesheet">
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-        
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-
-    <body>
-        <div class = " wrapper">
-            
-            <!-- Top Bar Start -->
-            <div class="top-bar">
-                <div class="container-fluid">
-                    <div class="row">
-                       
-                        <div class="col-sm-12">
-                            <div class="top-bar-right">
-                                <div class="text">
-                                    <h4>FOR CONSULTATION</h4>                                                                      
-                                </div>
-                                <div class="text">
-                                    <h2>+91-8489007001</h2>
-                                    <h3>WHATSAPP</h3>                                   
-                                </div>
-                                <div class="text">
-                                    <h2>+91-8610342869</h2>
-                                    <h3>CALL</h3>                                   
-                                </div>
-                               
-                               <!-- <div class="social">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                </div>-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Top Bar End -->
-
-            <!-- Nav Bar Start -->
-            <div class ="nav-bar">
-                <div class="container-fluid">
-                    <nav class ="navbar navbar-expand-md" >
-                       
-						 <img src="img/logo.png" width="88" height="88"> &nbsp;&nbsp; 
-                            
-                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                            <span class="navbar-toggler-icon"><img src="img/icon/menu.png" width="25" height="25"></span>
-                        </button>
-
-
-
-
-                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                            
-							    <div></div>                   
-                            <div class="navbar-nav mr-sm-2">                            
-
-                               
-                                <!--<li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                      Bail
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                      
-									   <a class="dropdown-item" href="#"> BAIL</a>
-									   <a class="dropdown-item" href="#">ANTICIPATORY BAIL</a></div></li>--> 
-									   
-									    <a href = "./call.html"  class="nav-item nav-link">Talk to Lawyer</a>&nbsp;&nbsp;
-                                <a href="./bail.html" class="nav-item nav-link">Bail</a>&nbsp;&nbsp;
-                                <a href="./abail.html" class="nav-item nav-link">Anticipatory Bail</a>&nbsp; &nbsp;
-                                 				  					  
-							   <!--<div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Bail</a>
-                                    <div class="dropdown-menu">
-                                        <a href="blog.html" class="dropdown-item">Bail</a>
-                                        <a href="single.html" class="dropdown-item">Anticipatory Bail</a>
-                                    </div>
-                                </div>-->
+			<section id="top" class="section section-top pt-lg-5 pb-lg-0">
+				<div class="container h-100">
+					<div class="row align-items-center">
+						<div class="col-md-12">
+						<!-- Testimonial-Slider -->
+						<div class="slide-wrapper">
+							<div class="owl-carousel main-banner" id="owl-carousel" aria-owns="owl-thumbs" data-loop="1" data-nav="0" data-dots="0" data-items="1" data-tab="1" data-mobile="1" data-margin="0" data-autoplay="1" data-autoplaytime="6000">
+								<div class="item"><!-- .item -->
+									<div class="row"><!-- .row -->
+										<div class="col-md-6 pt-lg-5"><!-- .col -->
+											<div class="slide-sub-title mb-1">Consult a Lawyer now.</div>
+											<h1 class="mb-3 divspider-animate" data-animate="fade-in-down" data-duration="100"><span class="d-block">Your Solution</span> 
+												Our Legal Services</h1>
+											<p class="divspider-animate slide-content w-75" data-animate="fade-in-up"  data-duration="200">We are here to help you take care of your legality with the best service especially for you.</p>
+											<div class="slide-rating">
+												<ul class="d-flex justify-content-start pl-0 align-items-center">
+													<li><img src="images/slider/customer1.png" alt="Customer" class="img-fluid"></li>
+													<li><img src="images/slider/customer2.png" alt="Customer" class="img-fluid"></li>
+													<li class="mr-2"><img src="images/slider/customer3.png" alt="Customer" class="img-fluid"></li>
+													<li class="rate-txt pr-3">+127 Lawyers are online</li>
+												</ul>
+												
+											</div>
+											<div class="contact-btn">
+												<a href="#" class="btn btn-dark mt-3">Talk to lawyer</a>					
+											</div>
+										</div><!-- .col -->
+										<div class="col-md-6"><!-- .col -->
+											<div class="slide-wrap-inner text-md-left">
+												<img class="img-fluid rounded" alt="Slide Image" src="images/slider/slide-image-3.png">
+											</div>
+										</div><!-- .col -->
+									</div><!-- .row -->
+								</div><!-- .item -->
 								
-								                                 <a href="./parole.html" class="nav-item nav-link">Parole</a>&nbsp;&nbsp;
-																 
-																   <a href=".html" class="nav-item nav-link">Writ</a>&nbsp;&nbsp;
-																 
-																 <a href ="./sigin.html" class="nav-item nav-link">Lawyers Login</a>&nbsp;&nbsp; 
+								<div class="item"><!-- .item -->
+									<div class="row"><!-- .row -->
+										<div class="col-md-6 pt-lg-5"><!-- .col -->
+											<div class="slide-sub-title mb-1">Consult a Lawyer now.</div>
+											<h1 class="mb-3 divspider-animate" data-animate="fade-in-down" data-duration="100"><span class="d-block">Your Solution</span> 
+												Our Legal Services</h1>
+											<p class="divspider-animate slide-content w-75" data-animate="fade-in-up"  data-duration="200">We are here to help you take care of your legality with the best service especially for you.</p>
+											<div class="slide-rating">
+												<ul class="d-flex justify-content-start pl-0 align-items-center">
+													<li><img src="images/slider/customer1.png" alt="Customer" class="img-fluid"></li>
+													<li><img src="images/slider/customer2.png" alt="Customer" class="img-fluid"></li>
+													<li class="mr-2"><img src="images/slider/customer3.png" alt="Customer" class="img-fluid"></li>
+													<li class="rate-txt pr-3">+127 Lawyers are online</li>
+												</ul>
+												
+											</div>
+											<div class="contact-btn">
+												<a href="#" class="btn btn-dark mt-3">Talk to lawyer</a>					
+											</div>
+										</div><!-- .col -->
+										<div class="col-md-6"><!-- .col -->
+											<div class="slide-wrap-inner text-md-left">
+												<img class="img-fluid rounded" alt="Slide Image" src="images/slider/slide-image-3.png">
+											</div>
+										</div><!-- .col -->
+									</div><!-- .row -->
+								</div><!-- .item -->
 
-                                 <a href="login.html"> <img src="img/icon/user2.png" width="35" height="35"> </a>
-                                
-                               <!-- <a href="contact.html" class="nav-item nav-link">Contact</a>
-                            </div>-->
-                           <!-- <div class="ml-auto">
-                                <a href="login.html"> <img src="img/icon/user2.png" width="30" height="30"> </a>
-                            </div>-->
-                        </div>
-                    </nav>
-                </div>
-            </div>
-            <!-- Nav Bar End -->
-            
-            
-            <!-- Carousel Start -->
-            <div id="carousel" class="carousel slide" data-ride="carousel">
-                <!--<ol class="carousel-indicators">
-                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel" data-slide-to="1"></li>
-                    <li data-target="#carousel" data-slide-to="2"></li>-->
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="img/carousel-3.jpg" alt="Carousel Image">
-                        <div class="carousel-caption">
-                            <h1 class="animated fadeInLeft" style=" font-family:"Times New Roman", Times, serif">We fight for your justice</h1>
-                            <p class="animated fadeInRight">Getting Bail is one of the rights of the accused</p>
-                            <a class="btn animated fadeInUp" href="talktous.html">Get free consultation</a>
-                        </div>
-                    </div>
+								<div class="item"><!-- .item -->
+									<div class="row"><!-- .row -->
+										<div class="col-md-6 pt-lg-5"><!-- .col -->
+											<div class="slide-sub-title mb-1">Consult a Lawyer now.</div>
+											<h1 class="mb-3 divspider-animate" data-animate="fade-in-down" data-duration="100"><span class="d-block">Your Solution</span> 
+												Our Legal Services</h1>
+											<p class="divspider-animate slide-content w-75" data-animate="fade-in-up"  data-duration="200">We are here to help you take care of your legality with the best service especially for you.</p>
+											<div class="slide-rating">
+												<ul class="d-flex justify-content-start pl-0 align-items-center">
+													<li><img src="images/slider/customer1.png" alt="Customer" class="img-fluid"></li>
+													<li><img src="images/slider/customer2.png" alt="Customer" class="img-fluid"></li>
+													<li class="mr-2"><img src="images/slider/customer3.png" alt="Customer" class="img-fluid"></li>
+													<li class="rate-txt pr-3">+127 Lawyers are online</li>
+												</ul>
+												
+											</div>
+											<div class="contact-btn">
+												<a href="#" class="btn btn-dark mt-3">Talk to lawyer</a>					
+											</div>
+										</div><!-- .col -->
+										<div class="col-md-6"><!-- .col -->
+											<div class="slide-wrap-inner text-md-left">
+												<img class="img-fluid rounded" alt="Slide Image" src="images/slider/slide-image-3.png">
+											</div>
+										</div><!-- .col -->
+									</div><!-- .row -->
+								</div><!-- .item -->
 
-                    <div class="carousel-item ">
-                        <img src="img/carousel-2.jpg" alt="Carousel Image">
-                        <div class="carousel-caption">
-                            <h1 class="animated fadeInLeft">We prepared to oppose for you</h1>
-                            <p class="animated fadeInRight"></p>
-                            <a class="btn animated fadeInUp" href="#">Get free consultation</a>
-                        </div>
-                    </div>
+								<div class="item"><!-- .item -->
+									<div class="row"><!-- .row -->
+										<div class="col-md-6 pt-lg-5"><!-- .col -->
+											<div class="slide-sub-title mb-1">Consult a Lawyer now.</div>
+											<h1 class="mb-3 divspider-animate" data-animate="fade-in-down" data-duration="100"><span class="d-block">Your Solution</span> 
+												Our Legal Services</h1>
+											<p class="divspider-animate slide-content w-75" data-animate="fade-in-up"  data-duration="200">We are here to help you take care of your legality with the best service especially for you.</p>
+											<div class="slide-rating">
+												<ul class="d-flex justify-content-start pl-0 align-items-center">
+													<li><img src="images/slider/customer1.png" alt="Customer" class="img-fluid"></li>
+													<li><img src="images/slider/customer2.png" alt="Customer" class="img-fluid"></li>
+													<li class="mr-2"><img src="images/slider/customer3.png" alt="Customer" class="img-fluid"></li>
+													<li class="rate-txt pr-3">+127 Lawyers are online</li>
+												</ul>
+												
+											</div>
+											<div class="contact-btn">
+												<a href="#" class="btn btn-dark mt-3">Talk to lawyer</a>					
+											</div>
+										</div><!-- .col -->
+										<div class="col-md-6"><!-- .col -->
+											<div class="slide-wrap-inner text-md-left">
+												<img class="img-fluid rounded" alt="Slide Image" src="images/slider/slide-image-3.png">
+											</div>
+										</div><!-- .col -->
+									</div><!-- .row -->
+								</div><!-- .item -->
 
-                    <div class="carousel-item">
-                        <img src="img/carousel-3.jpg " alt="Carousel Image">
-                        <div class="carousel-caption">
-                            <h1 class="animated fadeInLeft"> 24x7 Support!</h1>
-                            <p class="animated fadeInRight"></p>
-                            <a class="btn animated fadeInUp" href="">Get free consultation</a>
-                        </div>
-                    </div>
-                </div>
+								<div class="item"><!-- .item -->
+									<div class="row"><!-- .row -->
+										<div class="col-md-6 pt-lg-5"><!-- .col -->
+											<div class="slide-sub-title mb-1">Consult a Lawyer now.</div>
+											<h1 class="mb-3 divspider-animate" data-animate="fade-in-down" data-duration="100"><span class="d-block">Your Solution</span> 
+												Our Legal Services</h1>
+											<p class="divspider-animate slide-content w-75" data-animate="fade-in-up"  data-duration="200">We are here to help you take care of your legality with the best service especially for you.</p>
+											<div class="slide-rating">
+												<ul class="d-flex justify-content-start pl-0 align-items-center">
+													<li><img src="images/slider/customer1.png" alt="Customer" class="img-fluid"></li>
+													<li><img src="images/slider/customer2.png" alt="Customer" class="img-fluid"></li>
+													<li class="mr-2"><img src="images/slider/customer3.png" alt="Customer" class="img-fluid"></li>
+													<li class="rate-txt pr-3">+127 Lawyers are online</li>
+												</ul>
+												
+											</div>
+											<div class="contact-btn">
+												<a href="#" class="btn btn-dark mt-3">Talk to lawyer</a>					
+											</div>
+										</div><!-- .col -->
+										<div class="col-md-6"><!-- .col -->
+											<div class="slide-wrap-inner text-md-left">
+												<img class="img-fluid rounded" alt="Slide Image" src="images/slider/slide-image-3.png">
+											</div>
+										</div><!-- .col -->
+									</div><!-- .row -->
+								</div><!-- .item -->
 
-                <!--<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>-->
-            </div>
-            <!-- Carousel End -->
-            
-            
-            <!-- Top Feature Start-->
-            <div class="feature-top">
-                <div class="container-fluid">
-                    <div class="row align-items-center">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="feature-item">
-                                <i class="far fa-check-circle"></i>
-                                <h3>1240</h3>
-                                <p>Cases Handled</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="feature-item">
-                                <i class="fa fa-user-tie"></i>
-                                <h3>225</h3>
-                                <p>Business Optimised</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="feature-item">
-                                <i class="far fa-thumbs-up"></i>
-                                <h3>520</h3>
-                                <p>Bail Issued</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="feature-item">
-                                <i class="far fa-handshake"></i>
-                                <h3>138</h3>
-                                <p>Client Served</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Top Feature End-->
-            
-            
-            <!-- About Start -->
-            <div class="about">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-lg-5 col-md-6">
-                            <div class="about-img">
-                                <img src="img/about.jpg" alt="Image">
-                            </div>
-                        </div>
-                        <div class="col-lg-7 col-md-6">
-                            <div >
-                                <h1 style="text-align: center;"> About Us</h1>
-                            </div>
-                            <div >
-                               
-                              <p align ="justify" style= "font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: large;" style="color:black" >BailParole.com is India’s #1 Platform providing Bail, Parole, lawyer Consultation, Court e-Filing Services in India.  We are a one stop legal solution.<br><br>
-
-We help clients get  bail, anticipatory bail, Legal E-filing and Legal Consultation Services across India. <br><br>
-
-
-Empowering legal practice of 10,000 Lawyers in India
-                                </p>
-                                
-                                <a class="btn" href="#"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- About End -->
-
-
-            <!-- Service Start -->
-           <!-- <div class="service">
-                <div class="container">
-                    <div class="section-header">
-                        <h2>Our Practices Areas</h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="service-item">
-                                <div class="service-icon">
-                                    <i class="fa fa-landmark"></i>
-                                </div>
-                                <h3>Civil Law</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                                </p>
-                                <a class="btn" href="#">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="service-item">
-                                <div class="service-icon">
-                                    <i class="fa fa-users"></i>
-                                </div>
-                                <h3>Family Law</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                                </p>
-                                <a class="btn" href="#">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="service-item">
-                                <div class="service-icon">
-                                    <i class="fa fa-hand-holding-usd"></i>
-                                </div>
-                                <h3>Business Law</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                                </p>
-                                <a class="btn" href="#">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="service-item">
-                                <div class="service-icon">
-                                    <i class="fa fa-graduation-cap"></i>
-                                </div>
-                                <h3>Education Law</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                                </p>
-                                <a class="btn" href="#">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="service-item">
-                                <div class="service-icon">
-                                    <i class="fa fa-gavel"></i>
-                                </div>
-                                <h3>Criminal Law</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                                </p>
-                                <a class="btn" href="#">Learn More</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="service-item">
-                                <div class="service-icon">
-                                    <i class="fa fa-globe"></i>
-                                </div>
-                                <h3>Cyber Law</h3>
-                                <p>
-                                    Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non
-                                </p>
-                                <a class="btn" href="#">Learn More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Service End -->
-            
-            
-            <!-- Feature Start -->
-            <div class="feature">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-7">
-                            <div >
-                                <h1 style="text-align: center;">Why Choose Us</h1>
-                            </div>
-                            <div class="row align-items-center feature-item">
-                                <div class="col-5">
-                                    <div class="feature-icon">
-                                        <i class="fa fa-gavel"></i>
-                                    </div>
-                                </div>
-                                <div class="col-7">
-                                    <h3>Army of Lawyers</h3>
-                                    
-                                </div>
-                            </div>
-                            <div class="row align-items-center feature-item">
-                                <div class="col-5">
-                                    <div class="feature-icon">
-                                        <i class="fa fa-balance-scale"></i>
-                                    </div>
-                                </div>
-                                <div class="col-7">
-                                    <h3>Cost Effective Legal Solution</h3>
-                                    
-                                </div>
-                            </div>
-                            <div class="row align-items-center feature-item">
-                                <div class="col-5">
-                                    <div class="feature-icon">
-                                        <i class="far fa-smile"></i>
-                                    </div>
-                                </div>
-                                <div class="col-7">
-                                    <h3>Online 24/7 Support </h3>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-5">
-                            <div class="feature-img">
-                                <img src="img/feature.jpg" alt="Feature">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Feature End -->
-            
-            
-            <!-- Team Start -->
-           <!--<div class="team">
-                <div class="container">
-                    <div class="section-header">
-                        <h2>Meet Our Expert Attorneys</h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6">
-                            <div class="team-item">
-                                <div class="team-img">
-                                    <img src="img/team-1.jpg" alt="Team Image">
-                                </div>
-                                <div class="team-text">
-                                    <h2>Adam Phillips</h2>
-                                    <p>Business Consultant</p>
-                                    <div class="team-social">
-                                        <a class="social-tw" href="#"><i class="fab fa-twitter"></i></a>
-                                        <a class="social-fb" href="#"><i class="fab fa-facebook-f"></i></a>
-                                        <a class="social-li" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        <a class="social-in" href="#"><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="team-item">
-                                <div class="team-img">
-                                    <img src="img/team-2.jpg" alt="Team Image">
-                                </div>
-                                <div class="team-text">
-                                    <h2>Dylan Adams</h2>
-                                    <p>Criminal Consultant</p>
-                                    <div class="team-social">
-                                        <a class="social-tw" href="#"><i class="fab fa-twitter"></i></a>
-                                        <a class="social-fb" href="#"><i class="fab fa-facebook-f"></i></a>
-                                        <a class="social-li" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        <a class="social-in" href="#"><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="team-item">
-                                <div class="team-img">
-                                    <img src="img/team-3.jpg" alt="Team Image">
-                                </div>
-                                <div class="team-text">
-                                    <h2>Gloria Edwards</h2>
-                                    <p>Divorce Consultant</p>
-                                    <div class="team-social">
-                                        <a class="social-tw" href="#"><i class="fab fa-twitter"></i></a>
-                                        <a class="social-fb" href="#"><i class="fab fa-facebook-f"></i></a>
-                                        <a class="social-li" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        <a class="social-in" href="#"><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <div class="team-item">
-                                <div class="team-img">
-                                    <img src="img/team-4.jpg" alt="Team Image">
-                                </div>
-                                <div class="team-text">
-                                    <h2>Josh Dunn</h2>
-                                    <p>Immigration Consultant</p>
-                                    <div class="team-social">
-                                        <a class="social-tw" href="#"><i class="fab fa-twitter"></i></a>
-                                        <a class="social-fb" href="#"><i class="fab fa-facebook-f"></i></a>
-                                        <a class="social-li" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        <a class="social-in" href="#"><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Team End -->
-
-
-            <!-- FAQs Start -->
-            <!--<div class="faqs">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-5">
-                            <div class="faqs-img">
-                                <img src="img/faqs.jpg" alt="Image">
-                            </div>
-                        </div>
-                        <div class="col-md-7">
-                            <div class="section-header">
-                                <h2>Have A Questions?</h2>
-                            </div>
-                            <div id="accordion">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="true">
-                                            <span>1</span> Lorem ipsum dolor sit amet?
-                                        </a>
-                                    </div>
-                                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header">
-                                        <a class="card-link" data-toggle="collapse" href="#collapseTwo">
-                                            <span>2</span> Lorem ipsum dolor sit amet?
-                                        </a>
-                                    </div>
-                                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header">
-                                        <a class="card-link" data-toggle="collapse" href="#collapseThree">
-                                            <span>3</span> Lorem ipsum dolor sit amet?
-                                        </a>
-                                    </div>
-                                    <div id="collapseThree" class="collapse" data-parent="#accordion">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header">
-                                        <a class="card-link" data-toggle="collapse" href="#collapseFour">
-                                            <span>4</span> Lorem ipsum dolor sit amet?
-                                        </a>
-                                    </div>
-                                    <div id="collapseFour" class="collapse" data-parent="#accordion">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-header">
-                                        <a class="card-link" data-toggle="collapse" href="#collapseFive">
-                                            <span>5</span> Lorem ipsum dolor sit amet?
-                                        </a>
-                                    </div>
-                                    <div id="collapseFive" class="collapse" data-parent="#accordion">
-                                        <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                        </div>
-                                    </div>
-                                </div> 
-                            </div>
-                            <a class="btn" href="#">Ask more</a>
-                        </div>
-                    </div>
-                </div>
-            </div>-->
-            <!-- FAQs End -->
-
-
-            <!-- Testimonial Start -->
-           <!-- <div class="testimonial">
-                <div class="container">
-                    <div class="section-header">
-                        <h2>Review From Client</h2>
-                    </div>
-                    <div class="owl-carousel testimonials-carousel">
-                        <div class="testimonial-item">
-                            <i class="fa fa-quote-right"></i>
-                            <div class="row align-items-center">
-                                <div class="col-3">
-                                    <img src="img/testimonial-1.jpg" alt="">
-                                </div>
-                                <div class="col-9">
-                                    <h2>Client Name</h2>
-                                    <p>Profession</p>
-                                </div>
-                                <div class="col-12">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam accumsan lacus eget velit
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testimonial-item">
-                            <i class="fa fa-quote-right"></i>
-                            <div class="row align-items-center">
-                                <div class="col-3">
-                                    <img src="img/testimonial-2.jpg" alt="">
-                                </div>
-                                <div class="col-9">
-                                    <h2>Client Name</h2>
-                                    <p>Profession</p>
-                                </div>
-                                <div class="col-12">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam accumsan lacus eget velit
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testimonial-item">
-                            <i class="fa fa-quote-right"></i>
-                            <div class="row align-items-center">
-                                <div class="col-3">
-                                    <img src="img/testimonial-3.jpg" alt="">
-                                </div>
-                                <div class="col-9">
-                                    <h2>Client Name</h2>
-                                    <p>Profession</p>
-                                </div>
-                                <div class="col-12">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam accumsan lacus eget velit
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testimonial-item">
-                            <i class="fa fa-quote-right"></i>
-                            <div class="row align-items-center">
-                                <div class="col-3">
-                                    <img src="img/testimonial-4.jpg" alt="">
-                                </div>
-                                <div class="col-9">
-                                    <h2>Client Name</h2>
-                                    <p>Profession</p>
-                                </div>
-                                <div class="col-12">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam accumsan lacus eget velit
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testimonial-item">
-                            <i class="fa fa-quote-right"></i>
-                            <div class="row align-items-center">
-                                <div class="col-3">
-                                    <img src="img/testimonial-1.jpg" alt="">
-                                </div>
-                                <div class="col-9">
-                                    <h2>Client Name</h2>
-                                    <p>Profession</p>
-                                </div>
-                                <div class="col-12">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam accumsan lacus eget velit
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testimonial-item">
-                            <i class="fa fa-quote-right"></i>
-                            <div class="row align-items-center">
-                                <div class="col-3">
-                                    <img src="img/testimonial-2.jpg" alt="">
-                                </div>
-                                <div class="col-9">
-                                    <h2>Client Name</h2>
-                                    <p>Profession</p>
-                                </div>
-                                <div class="col-12">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam accumsan lacus eget velit
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testimonial-item">
-                            <i class="fa fa-quote-right"></i>
-                            <div class="row align-items-center">
-                                <div class="col-3">
-                                    <img src="img/testimonial-3.jpg" alt="">
-                                </div>
-                                <div class="col-9">
-                                    <h2>Client Name</h2>
-                                    <p>Profession</p>
-                                </div>
-                                <div class="col-12">
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam accumsan lacus eget velit
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>-->
-            <!-- Testimonial End -->
-
-
-            <!-- Blog Start -->
-            <!--<div class="blog">
-                <div class="container">
-                    <div class="section-header">
-                        <h2>Latest From Blog</h2>
-                    </div>
-                    <div class="owl-carousel blog-carousel">
-                        <div class="blog-item">
-                            <img src="img/blog-1.jpg" alt="Blog">
-                            <h3>Lorem ipsum dolor</h3>
-                            <div class="meta">
-                                <i class="fa fa-list-alt"></i>
-                                <a href="#">Civil Law</a>
-                                <i class="fa fa-calendar-alt"></i>
-                                <p>01-Jan-2045</p>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor
-                            </p>
-                            <a class="btn" href="#">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                        <div class="blog-item">
-                            <img src="img/blog-2.jpg" alt="Blog">
-                            <h3>Lorem ipsum dolor</h3>
-                            <div class="meta">
-                                <i class="fa fa-list-alt"></i>
-                                <a href="#">Family Law</a>
-                                <i class="fa fa-calendar-alt"></i>
-                                <p>01-Jan-2045</p>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor
-                            </p>
-                            <a class="btn" href="#">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                        <div class="blog-item">
-                            <img src="img/blog-3.jpg" alt="Blog">
-                            <h3>Lorem ipsum dolor</h3>
-                            <div class="meta">
-                                <i class="fa fa-list-alt"></i>
-                                <a href="#">Business Law</a>
-                                <i class="fa fa-calendar-alt"></i>
-                                <p>01-Jan-2045</p>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor
-                            </p>
-                            <a class="btn" href="#">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                        <div class="blog-item">
-                            <img src="img/blog-1.jpg" alt="Blog">
-                            <h3>Lorem ipsum dolor</h3>
-                            <div class="meta">
-                                <i class="fa fa-list-alt"></i>
-                                <a href="#">Education Law</a>
-                                <i class="fa fa-calendar-alt"></i>
-                                <p>01-Jan-2045</p>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor
-                            </p>
-                            <a class="btn" href="#">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                        <div class="blog-item">
-                            <img src="img/blog-2.jpg" alt="Blog">
-                            <h3>Lorem ipsum dolor</h3>
-                            <div class="meta">
-                                <i class="fa fa-list-alt"></i>
-                                <a href="#">Criminal Law</a>
-                                <i class="fa fa-calendar-alt"></i>
-                                <p>01-Jan-2045</p>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor
-                            </p>
-                            <a class="btn" href="#">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                        <div class="blog-item">
-                            <img src="img/blog-3.jpg" alt="Blog">
-                            <h3>Lorem ipsum dolor</h3>
-                            <div class="meta">
-                                <i class="fa fa-list-alt"></i>
-                                <a href="#">Cyber Law</a>
-                                <i class="fa fa-calendar-alt"></i>
-                                <p>01-Jan-2045</p>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor
-                            </p>
-                            <a class="btn" href="#">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                        <div class="blog-item">
-                            <img src="img/blog-1.jpg" alt="Blog">
-                            <h3>Lorem ipsum dolor</h3>
-                            <div class="meta">
-                                <i class="fa fa-list-alt"></i>
-                                <a href="#">Business Law</a>
-                                <i class="fa fa-calendar-alt"></i>
-                                <p>01-Jan-2045</p>
-                            </div>
-                            <p>
-                                Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor
-                            </p>
-                            <a class="btn" href="#">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>-->
-            <!-- Blog End -->
-            
-            
-            <!-- Newsletter Start -->
-            <!--<div class="newsletter">
-                <div class="container">
-                    <div class="section-header">
-                        <h2>Subscribe Our Newsletter</h2>
-                    </div>
-                    <div class="form">
-                        <input class="form-control" placeholder="Email here">
-                        <button class="btn">Submit</button>
-                    </div>
-                </div>
-            </div>-->
-            <!-- Newsletter End -->
-
-
-            <!-- Footer Start -->
-            <div class="footer">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-lg-4">
-                            <div class="footer-about">
-                                <h2>About Us</h2>
-                                <p style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-                                    India's #1 Platform providing Bail, Parole, lawyer Consultation, Court e-Filing Services in India. <br> We are a one stope legal solution.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-8">
-                            <div class="row">
-                        <div class="col-md-6 col-lg-4">
-                            <div class="footer-link">
-                                <h2>Services Areas</h2>
-                                <a href="#">Bail</a>
-                                <a href="#">Anticipatory Bail</a>
-                                <a href="#">Parole</a>
-                                <a href="#"> Law Consultation</a>
-                               
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                           <div class="footer-link">
-                                <h2>Useful Pages</h2>
-                                <a href="#">About Us</a>
-                                <a href="#">Why choose Us</a>
-                                <a href="#">Talk to Us</a>
-
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-lg-4">
-                            <div class="footer-contact">
-                                <h2>Get In Touch</h2>
-                                <p><i class="fa fa-map-marker-alt"></i>59 VOC Street,Sivaganga,Tamilnadu</p>
-                                <p><i class="fa fa-phone-alt"></i>+91-8610342869</p>
-                                <p><i class="fa fa-envelope"></i>info@bailparole.com</p>
-                                <div class="footer-social">
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-youtube"></i></a>
-                                    <a href="#"><i class="fab fa-instagram"></i></a>
-                                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="container footer-menu">
-                    <div class="f-menu">
-                        <a href="#">Terms of use</a>
-                        <a href="#">Privacy policy</a>
-                        <a href="#">Cookies</a>
-                        <a href="#">Help</a>
-                        <a href="#">FQAs</a>
-                    </div>
-                </div>
-                <div class="container copyright">
-                    <div class="row">
-                        
-                        <div class="col-md-6">
-                            <p>Designed By @ <a href="https://www.gritdigitech.com/">GRITDigitech Private Limited</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Footer End -->
-            
-            <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-        </div>
-
-        <!-- JavaScript Libraries -->
-        <script src="jquery-3.4.1.min.js"></script>
-        <script src="js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/isotope/isotope.pkgd.min.js"></script>
-
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
-    </body>
+							</div><!-- .owl-carousel -->
+							<!-- thumbs starts -->
+							<div class="play-pause-btns">
+								<a class="button secondary play">Play</a> 
+								<a class="button secondary stop">Stop</a> 
+							</div>
+							<div class="owl-thumbs" id="owl-thumbs" aria-controls="owl-carousel">
+								<div class="owl-thumbs-wrapper">
+										<button class="owl-thumb-item">
+											<div class="d-block">
+											<img src="images/slider/thumbs/thumb1.jpg" class="cover mr-3" alt="Army of Lawyers">
+											<span class="thumb-txt">Army of Lawyers</span>
+										</div>
+										</button>
+										<button class="owl-thumb-item">
+											<div class="d-block">
+											<img src="images/slider/thumbs/thumb2.jpg" class="cover mr-3" alt="Cost Effective Legal Solution">
+											<span class="thumb-txt">Cost Effective Legal<br> Solution</span></div>
+										</button>
+										<button class="owl-thumb-item">
+											<div class="d-block">
+											<img src="images/slider/thumbs/thumb3.jpg" class="cover mr-3" alt="Online 24/7 Support">
+											<span class="thumb-txt">Online 24/7 Support</span></div>
+										</button>
+										<button class="owl-thumb-item">
+											<div class="d-block">
+											<img src="images/slider/thumbs/thumb4.jpg" class="cover mr-3" alt="Legal Education and Online Courses">
+											<span class="thumb-txt">Legal Education and<br> Online Courses</span></div>
+										</button>
+										<button class="owl-thumb-item">
+											<div class="d-block">
+											<img src="images/slider/thumbs/thumb5.jpg" class="cover mr-3" alt="Fast Track Process">
+											<span class="thumb-txt">Fast Track Process</span></div>
+										</button>
+								</div>  
+							</div>
+						<!-- thumbs ends -->
+						</div><!-- .slide-wrapper -->	
+						</div>
+					</div>
+				</div>
+			</section>			
+		</header><!--Header-->
+		<section class="counter-section set-as-background background-fixed section-text-whilte" data-bgimg="images/bg/patterns.png">
+			<span class="abs-grey-bg"></span>
+			<div class="section-inner">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="section-title-wrapper mb-4 text-center divspider-animate" data-animate="fade-in-up"  data-duration="200">								
+								<h2 class="section-title text-light mb-2">Some count that matters</h2>
+								<div class="section-sub-title">Our achievement in the journey depicted in numbers</div>						
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6">
+							<div class="counter-wrapper mb-5 mb-lg-0 text-center divspider-animate" data-animate="fade-in-up"  data-duration="100">
+								<span class="counter-value mb-2" data-counter="520">520</span>
+								<div class="counter-text text-white mb-0">Bail Issued</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 border-left">
+							<div class="counter-wrapper mb-5 mb-lg-0 text-center divspider-animate" data-animate="fade-in-up"  data-duration="200">
+								<span class="counter-value mb-2" data-counter="1240">1240</span>
+								<div class="counter-text text-white mb-0">Cases Handled</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 border-left">
+							<div class="counter-wrapper mb-5 mb-md-0 text-center divspider-animate" data-animate="fade-in-up"  data-duration="300">
+								<span class="counter-value mb-2" data-counter="225">225</span>
+								<div class="counter-text text-white mb-0">Business Optimised</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 border-left">
+							<div class="counter-wrapper text-center divspider-animate" data-animate="fade-in-up"  data-duration="400">
+								<span class="counter-value mb-2" data-counter="138">138</span>
+								<div class="counter-text text-white mb-0">Client Served</div>
+							</div>
+						</div>
+					</div><!-- .row -->
+				</div><!-- .container -->
+			</div><!-- .section-inner -->
+		</section>
+		<section class="about-section">
+			<div class="section-inner">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-6 d-none d-md-flex justify-content-center">
+							<div class="about-img-right">
+								<img class="img-fluid rounded" alt="Bailparole About Image" src="images/others/bailparole-about.jpg" />
+							</div>
+						</div><!-- ./col -->
+						<div class="col-lg-6 align-self-center">
+							<div class="section-title-wrapper mb-lg-0 pl-lg-4">
+								<h2 class="section-title text-uppercase mb-3">ABOUT US</h2>
+								<p class="about-content mb-0">BailParole.com is India’s #1 Platform providing Bail, Parole, lawyer Consultation, Court e-Filing Services in India. We are a one stop legal solution.We help clients get bail, anticipatory bail, Legal E-filing and Legal Consultation Services across India.Empowering legal practice of 2,300 Lawyers in India</p>								
+							</div>
+						</div><!-- .col -->
+					</div><!-- .row -->
+				</div><!-- .container -->
+			</div><!-- .section-inner -->
+		</section>
+		<section class="classic-tab-section cus-pad-b">
+			<span class="abs-light-bg"></span>
+			<span class="bg-left"><img src="images/others/left-bg-img.png" class="img-fluid" alt="Backgroung image"></span>
+			<span class="bg-right"><img src="images/others/right-bg-img.png"class="img-fluid" alt="Backgroung image"></span>
+			<div class="section-inner">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-lg-6">
+							<div class="tabs-hor mt-lg-5">
+								<!-- Tabs -->
+							<div class="tabs-wrapper tabs-classic">
+								<ul class="nav">
+									<li class="nav-item" role="presentation">
+										<a class="btn btn-outline-primary rounded-50 active" data-toggle="tab" href="#uu-tab-content-1"><span><img src="images/vectors/tab-1.svg"></span></a>
+									</li>
+									<li class="nav-item">
+										<a class="btn btn-outline-primary rounded-50" data-toggle="tab" href="#uu-tab-content-2"><span><img src="images/vectors/tab-2.svg"></span></a>
+									</li>
+									<li class="nav-item">
+										<a class="btn btn-outline-primary rounded-50" data-toggle="tab" href="#uu-tab-content-3"><span><img src="images/vectors/tab-3.svg"></span></a>
+									</li>
+									<li class="nav-item">
+										<a class="btn btn-outline-primary rounded-50" data-toggle="tab" href="#uu-tab-content-4"><span><img src="images/vectors/tab-4.svg"></span></a>
+									</li>
+									<li class="nav-item">
+										<a class="btn btn-outline-primary rounded-50" data-toggle="tab" href="#uu-tab-content-5"><span><img src="images/vectors/tab-5.svg"></span></a>
+									</li>
+									<li class="nav-item">
+										<a class="btn btn-outline-primary rounded-50" data-toggle="tab" href="#uu-tab-content-6"><span><img src="images/vectors/tab-6.svg"></span></a>
+									</li>
+								</ul>
+								<div class="tab-content pt-4">
+									<div class="tab-pane fade show active" id="uu-tab-content-1">
+										<ul class="tab-content-list pl-4">
+											<li class="pb-2">Free Legal Consultation</li>
+											<li class="pb-2">Parole Applicaiton Services</li>
+											<li class="pb-2">Bail Application a, regular b, fast track</li>
+											<li class="pb-2">Talk to Lawyer</li>
+											<li class="pb-2">Anticipatory Bail Applicaiton</li>
+											<li class="pb-2">In person legal assistance</li>
+											<li class="pb-0">writ</li>
+										</ul>
+									</div>
+									<div class="tab-pane fade" id="uu-tab-content-2">
+										<ul class="tab-content-list pl-4">
+											<li class="pb-2">Free Legal Consultation</li>
+											<li class="pb-2">Parole Applicaiton Services</li>
+											<li class="pb-2">Bail Application a, regular b, fast track</li>
+											<li class="pb-2">Talk to Lawyer</li>
+											<li class="pb-2">Anticipatory Bail Applicaiton</li>
+											<li class="pb-2">In person legal assistance</li>
+											<li class="pb-0">writ</li>
+										</ul>
+									</div>
+									<div class="tab-pane fade" id="uu-tab-content-3">
+										<ul class="tab-content-list pl-4">
+											<li class="pb-2">Free Legal Consultation</li>
+											<li class="pb-2">Parole Applicaiton Services</li>
+											<li class="pb-2">Bail Application a, regular b, fast track</li>
+											<li class="pb-2">Talk to Lawyer</li>
+											<li class="pb-2">Anticipatory Bail Applicaiton</li>
+											<li class="pb-2">In person legal assistance</li>
+											<li class="pb-0">writ</li>
+										</ul>
+									</div>
+									<div class="tab-pane fade" id="uu-tab-content-4">
+										<ul class="tab-content-list pl-4">
+											<li class="pb-2">Free Legal Consultation</li>
+											<li class="pb-2">Parole Applicaiton Services</li>
+											<li class="pb-2">Bail Application a, regular b, fast track</li>
+											<li class="pb-2">Talk to Lawyer</li>
+											<li class="pb-2">Anticipatory Bail Applicaiton</li>
+											<li class="pb-2">In person legal assistance</li>
+											<li class="pb-0">writ</li>
+										</ul>
+									</div>
+									<div class="tab-pane fade" id="uu-tab-content-5">
+										<ul class="tab-content-list pl-4">
+											<li class="pb-2">Free Legal Consultation</li>
+											<li class="pb-2">Parole Applicaiton Services</li>
+											<li class="pb-2">Bail Application a, regular b, fast track</li>
+											<li class="pb-2">Talk to Lawyer</li>
+											<li class="pb-2">Anticipatory Bail Applicaiton</li>
+											<li class="pb-2">In person legal assistance</li>
+											<li class="pb-0">writ</li>
+										</ul>
+									</div>
+									<div class="tab-pane fade" id="uu-tab-content-6">
+										<ul class="tab-content-list pl-4">
+											<li class="pb-2">Free Legal Consultation</li>
+											<li class="pb-2">Parole Applicaiton Services</li>
+											<li class="pb-2">Bail Application a, regular b, fast track</li>
+											<li class="pb-2">Talk to Lawyer</li>
+											<li class="pb-2">Anticipatory Bail Applicaiton</li>
+											<li class="pb-2">In person legal assistance</li>
+											<li class="pb-0">writ</li>
+										</ul>
+									</div>
+								</div>
+									<div class="tab-outer">
+										<div class="tab-img"><img class="img-fluid rounded" alt="Bailparole About Image" src="images/others/tab-img.png" /></div>
+										<div class="tab-img1"><img class="img-fluid rounded" alt="Bailparole About Image" src="images/others/tab-img1.png" /></div>
+										<div class="tab-call"><a class="btn btn-dark" href="#"><span class="bi bi-telephone-forward"></span>Call</a></div>
+										<div class="tab-video"><a class="btn btn-dark" href="#"><span class="bi bi-camera-video"></span>Video Call</a></div>
+										<div class="tab-doc"><a class="btn btn-dark" href="#"><span class="bi bi-file-earmark-text"></span>Documentation</a></div>
+									</div>
+								</div><!-- .tabs-wrapper -->
+							</div>
+						</div><!-- ./col -->
+						<div class="col-lg-6">
+							<div class="section-title-wrapper cus-tab-title mb-lg-0">
+								<h2 class="section-title mb-3">Connect with our Legal Advisors</h2>
+								<p class="about-content mb-2">BailParole.com is India’s #1 Platform providing Bail, Parole, lawyer Consultation, Court e-Filing Services in India. We are a one stop legal solution.We help clients get bail, anticipatory bail, Legal E-filing and Legal Consultation Services across India.Empowering legal practice of 2,300 Lawyers in India</p>	
+								<div class="text-center">
+								<a href="#" class="btn btn-dark mt-3">Talk to lawyer</a>	</div>						
+							</div>
+						</div><!-- .col -->
+					</div><!-- .row -->
+				</div><!-- .container -->
+			</div><!-- .section-inner -->
+		</section>
+		<section class="vector-featurebox-section section-bg-mild">
+			<div class="section-inner">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-9">
+							<div class="section-title-wrapper mb-5 text-center divspider-animate" data-animate="fade-in-up"  data-duration="200">
+								<h2 class="section-title">Pick the slot to get expert solution</h2>
+							</div>
+						</div><!-- .col -->
+					</div><!-- .row -->
+				</div><!-- .container -->
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5 align-self-center">
+							<div class="section-title-wrapper mb-5 mb-lg-0 pl-lg-4 divspider-animate" data-animate="fade-in-up"  data-duration="200">
+								<div class="lead-txt w-50 mb-4">Right legal advice today will save your big cost tomorrow.</div>
+								<div class="postive-list">
+									<ul class="legal-connect list-group divspider-animate" data-animate="fade-in-up"  data-duration="200">
+										<li class="list-group-item"><span class="bi bi-telephone-forward mr-3"></span>73k Calls Connected</li>
+										<li class="list-group-item"><span class="bi bi-hammer mr-3"></span>63k Positive Result</li>
+										<li class="list-group-item"><span class="bi bi-star-fill mr-3"></span>4.6/5 Average Rating</li>
+									</ul>
+								</div>					
+							</div>
+						</div><!-- .col -->
+						<div class="col-md-12 col-lg-7">
+							<div class="pricing-wrapper rounded mb-lg-0">
+								<div class="pricing-wrap-inner">
+									<div class="pricing-list-wrapper">
+										<!-- .post-list -->
+										<div class="media pricing-list active mb-4 rounded divspider-animate" data-animate="fade-in-up"  data-duration="200">
+											<div class="media-left-items">
+												<h3 class="price-title-box mb-1 text-white">60 Minutes</h3>
+												<h6 class="price-cost-box text-white mb-0">Minutes valid for 30 days </h6>
+											</div>
+											<div class="media-body text-center">
+												<h2 class="price-cost-box text-white mb-0">$20</h2>
+												<div class="price-title-box text-white">( $16.6/ Min )</div>
+											</div><!-- .media-body -->		
+										</div><!-- .post-list -->
+										<!-- .post-list -->
+										<div class="media pricing-list mb-4 rounded divspider-animate" data-animate="fade-in-up"  data-duration="200">
+											<div class="media-left-items">
+												<h3 class="price-title-box mb-1">45 Minutes</h3>
+												<h6 class="price-cost-box mb-0">Minutes valid for 30 days </h6>
+											</div>
+											<div class="media-body text-center">
+												<h2 class="price-cost-box mb-0">$20</h2>
+												<div class="price-title-box">( $18.80/ Min )</div>
+											</div><!-- .media-body -->		
+										</div><!-- .post-list -->
+										<!-- .post-list -->
+										<div class="media pricing-list mb-4 rounded divspider-animate" data-animate="fade-in-up"  data-duration="200">
+											<div class="media-left-items">
+												<h3 class="price-title-box mb-1">30 Minutes</h3>
+												<h6 class="price-cost-box mb-0">Minutes valid for 30 days </h6>
+											</div>
+											<div class="media-body text-center">
+												<h2 class="price-cost-box mb-0">$20</h2>
+												<div class="price-title-box">( $23.30/ Min )</div>
+											</div><!-- .media-body -->		
+										</div><!-- .post-list -->
+										<!-- .post-list -->
+										<div class="media pricing-list mb-4 rounded divspider-animate" data-animate="fade-in-up"  data-duration="200">
+											<div class="media-left-items">
+												<h3 class="price-title-box mb-1">15 Minutes</h3>
+												<h6 class="price-cost-box mb-0">Minutes valid for 30 days </h6>
+											</div>
+											<div class="media-body text-center">
+												<h2 class="price-cost-box mb-0">$20</h2>
+												<div class="price-title-box">( $33.20/ Min )</div>
+											</div><!-- .media-body -->		
+										</div><!-- .post-list -->
+									</div>
+									<div class="price-btn">
+										<a href="#" class="btn btn-dark mt-3">Pick & Connect Now</a>					
+									</div>
+								</div><!-- pricing-wrap-inner -->	
+							</div><!--pricing-wrapper -->
+						</div><!-- .col -->	
+					</div><!-- .row -->
+				</div><!-- .container -->
+			</div><!-- .section-inner -->
+		</section>
+		<section class="classic-featurebox-section section-bg-mild">
+			<span class="abs-grey-bg"></span>
+			<div class="section-inner">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-7">
+							<div class="section-title-wrapper mb-lg-5 mb-5 text-center divspider-animate" data-animate="fade-in-up"  data-duration="200">								
+								<h2 class="section-title text-light">Experience a smarter legal solution platform in your hand</h2>						
+							</div>
+						</div><!-- .col -->
+					</div><!-- .row -->
+				</div><!-- .container -->
+				<div class="container">
+					<div class="row">	
+						<!-- .col -->					
+						<div class="col-md-6 col-lg-4 pr-lg-5 pl-lg-5 border-right border-bottom">
+							<div class="feature-box feature-box-vector p-0 mb-5 before-bg-square divspider-animate" data-animate="fade-in-up"  data-duration="200">
+								<div class="feature-box-card">
+									<div class="feature-box-icon-wrap mb-4">
+										<span class="feature-box-icon icon-lg rounded bg-none"><img src="../bailparole/images/icons/icon-1.png" class="img-fluid" alt="Service Icon"></span>
+									</div>
+									<div class="feature-box-body">
+										<div class="feature-box-title-wrap mb-3">
+											<h4 class="feature-box-title text-white">Immigration assistance</h4>
+										</div>
+										<div class="feature-box-content-wrap text-white">
+											<p class="feature-box-content mb-0">Lorem ipsum dolor sit amet consectetur. 
+												Vel mattis vel quam at.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div><!-- .col -->
+						<!-- .col -->					
+						<div class="col-md-6 col-lg-4 pr-lg-5 pl-lg-5 border-right border-bottom">
+							<div class="feature-box feature-box-vector p-0 mb-5 mb-lg-0 before-bg-square divspider-animate" data-animate="fade-in-up"  data-duration="200">
+								<div class="feature-box-card">
+									<div class="feature-box-icon-wrap mb-4">
+										<span class="feature-box-icon icon-lg rounded bg-none"><img src="../bailparole/images/icons/icon-2.png" class="img-fluid" alt="Service Icon"></span>
+									</div>
+									<div class="feature-box-body">
+										<div class="feature-box-title-wrap mb-3">
+											<h4 class="feature-box-title text-white">Intellectual property</h4>
+										</div>
+										<div class="feature-box-content-wrap text-white">
+											<p class="feature-box-content">Lorem ipsum dolor sit amet consectetur. 
+												Vel mattis vel quam at.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div><!-- .col -->
+						<!-- .col -->					
+						<div class="col-md-6 col-lg-4 pr-lg-5 pl-lg-5 border-bottom">
+							<div class="feature-box feature-box-vector p-0 mb-5 mb-lg-0 before-bg-square divspider-animate" data-animate="fade-in-up"  data-duration="200">
+								<div class="feature-box-card">
+									<div class="feature-box-icon-wrap mb-4">
+										<span class="feature-box-icon icon-lg rounded bg-none"><img src="../bailparole/images/icons/icon-3.png" class="img-fluid" alt="Service Icon"></span>
+									</div>
+									<div class="feature-box-body">
+										<div class="feature-box-title-wrap mb-3">
+											<h4 class="feature-box-title text-white">Complaince lawyer</h4>
+										</div>
+										<div class="feature-box-content-wrap text-white">
+											<p class="feature-box-content">Lorem ipsum dolor sit amet consectetur. 
+												Vel mattis vel quam at.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div><!-- .col -->
+						<!-- .col -->					
+						<div class="col-md-6 col-lg-4 pr-lg-5 pl-lg-5 pt-lg-5 border-right">
+							<div class="feature-box feature-box-vector p-0 mb-5 mb-lg-0 before-bg-square divspider-animate" data-animate="fade-in-up"  data-duration="200">
+								<div class="feature-box-card">
+									<div class="feature-box-icon-wrap mb-4">
+										<span class="feature-box-icon icon-lg rounded bg-none"><img src="../bailparole/images/icons/icon-4.png" class="img-fluid" alt="Service Icon"></span>
+									</div>
+									<div class="feature-box-body">
+										<div class="feature-box-title-wrap mb-3">
+											<h4 class="feature-box-title text-white">Making a will</h4>
+										</div>
+										<div class="feature-box-content-wrap text-white">
+											<p class="feature-box-content">Lorem ipsum dolor sit amet consectetur. 
+												Vel mattis vel quam at.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div><!-- .col -->
+						<!-- .col -->					
+						<div class="col-md-6 col-lg-4 pr-lg-5 pl-lg-5 pt-lg-5 border-right">
+							<div class="feature-box feature-box-vector p-0 mb-5 before-bg-square divspider-animate" data-animate="fade-in-up"  data-duration="200">
+								<div class="feature-box-card">
+									<div class="feature-box-icon-wrap mb-4">
+										<span class="feature-box-icon icon-lg rounded bg-none"><img src="../bailparole/images/icons/icon-5.png" class="img-fluid" alt="Service Icon"></span>
+									</div>
+									<div class="feature-box-body">
+										<div class="feature-box-title-wrap mb-3">
+											<h4 class="feature-box-title text-white">Legal documentation</h4>
+										</div>
+										<div class="feature-box-content-wrap text-white">
+											<p class="feature-box-content">Lorem ipsum dolor sit amet consectetur. 
+												Vel mattis vel quam at.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div><!-- .col -->
+						<!-- .col -->					
+						<div class="col-md-6 col-lg-4 pr-lg-5 pl-lg-5 pt-lg-5">
+							<div class="feature-box feature-box-vector p-0 mb-5 mb-lg-0 before-bg-square divspider-animate" data-animate="fade-in-up"  data-duration="200">
+								<div class="feature-box-card">
+									<div class="feature-box-icon-wrap mb-4">
+										<span class="feature-box-icon icon-lg rounded bg-none"><img src="../bailparole/images/icons/icon-6.png" class="img-fluid" alt="Service Icon"></span>
+									</div>
+									<div class="feature-box-body">
+										<div class="feature-box-title-wrap mb-3">
+											<h4 class="feature-box-title text-white">Estate planning</h4>
+										</div>
+										<div class="feature-box-content-wrap text-white">
+											<p class="feature-box-content">Lorem ipsum dolor sit amet consectetur. 
+												Vel mattis vel quam at.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div><!-- .col -->
+						<div class="col-md-12">
+							<div class="bottom-btn d-flex justify-content-center divspider-animate" data-animate="fade-in-up"  data-duration="200">
+								<a href="#" class="btn btn-primary mt-3">Talk to lawyer</a>
+							</div>
+						</div><!-- .col -->
+					</div><!-- .row -->
+				</div><!-- .container -->
+			</div><!-- .section-inner -->
+		</section>
+		<!-- Testimonials -->
+		<section class="vector-featurebox-section">
+			<div class="section-inner">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-9">
+							<div class="section-title-wrapper mb-lg-5 mb-4 text-center divspider-animate" data-animate="fade-in-up"  data-duration="300">
+								<h2 class="section-title"><span class="d-block">Success Stories</span> To Know About Our Lawyers</h2>
+							</div>
+						</div><!-- .col -->
+					</div><!-- .row -->
+				</div><!-- .container -->
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-12">
+							<!-- Testimonial-Slider -->
+							<div class="slide-wrapper">
+								<div class="owl-carousel"  data-loop="2" data-nav="0" data-dots="0" data-items="2" data-tab="1" data-mobile="1" data-margin="30" data-autoplay="1" data-autoplaytime="5000">
+									<div class="item">
+										<div class="testimonial-wrap-inner">
+											<div class="testimonial-content-wrap material-light-shadow rounded text-center">
+												<h5>Incredible Experience</h5>
+												<p class="testimonial-content m-0">We had an incredible experience working with Landify and were impressed they made such a big difference in only three weeks. Our team is so grateful for the wonderful improvements they made and their ability to get familiar with the concept so quickly.</p>
+											</div>
+											<div class="testimonial-info-wrap justify-content-center d-flex mt-4">
+												<div class="media mt-4">
+													<figure class="testimonial-image-wrap mr-3">
+														<a href="#"><img src="images/testimonial/1.png" class="img-fluid rounded-circle" alt="George Clooney"></a>
+													</figure>
+													<div class="media-body align-self-center">	
+														<a href="#" class="testimonial-name"><h5 class="m-0 testimonial-tittle">Anya Tailor Joy</h5></a>
+														<div class="testimonial-designation">CEO, SF Industires</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div><!-- .item -->
+									<div class="item">
+										<div class="testimonial-wrap-inner">
+											<div class="testimonial-content-wrap material-light-shadow rounded text-center">
+												<h5>Dependable, Responsive, Professional Partner</h5>
+												<p class="testimonial-content m-0">Fermin Apps has collaborated with Landify team for several projects such as Photo Sharing Apps and Custom Social Networking Apps. The experience has been pleasant, professional and exceeding our expectations.  </p>
+											</div>
+											<div class="testimonial-info-wrap justify-content-center d-flex mt-4">
+												<div class="media mt-4">
+													<figure class="testimonial-image-wrap mr-3">
+														<a href="#"><img src="images/testimonial/2.jpg" class="img-fluid rounded-circle" alt="George Clooney"></a>
+													</figure>
+													<div class="media-body align-self-center">
+														<a href="testimonial-single.html" class="testimonial-name"><h5 class="m-0 testimonial-tittle">Sri Alam</h5></a>
+														<div class="testimonial-designation">CEO, Membagongkan GROUP</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div><!-- .item -->
+								</div><!-- .owl-carousel -->
+							</div><!-- .slide-wrapper -->	
+						</div><!-- .col -->
+					</div><!-- .row -->
+				</div><!-- .container -->
+			</div><!-- .section-inner -->
+		</section>
+		<section class="section pt-0">
+			<div class="section-inner pb-lg-5">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-8 text-center text-md-left divspider-animate" data-animate="fade-in-up"  data-duration="200">
+							<h3>Complex Questions?</h3>
+							<p class="mb-4 mb-lg-4 pr-lg-5">Request for a personalized budget for your legal problem. We will send you a coupe options in 24 hours. You can have free consult , if a our first customer</p>
+							<a href="#" class="btn btn-dark mt-md-0 mb-4"><i class="bi bi-telephone-fill mr-2"></i>Call now</a>
+						</div><!-- .col -->
+						<div class="col-md-4 text-center text-md-right align-self-center divspider-animate" data-animate="fade-in-up"  data-duration="200"">
+							<img src="images/others/about-img-1.png" class="img-fluid" alt="About image">
+						</div><!-- .col -->
+					</div><!-- .row -->
+				</div><!-- .container -->
+			</div><!-- .section-inner -->
+		</section>
+		
+		
+		
+		<footer class="section position-relative">
+			<span class="abs-light-bg"></span>
+			<div class="widgets-footer">
+				<div class="container">
+					<div class="row align-items-center justify-content-md-space">					
+						<div class="col-md-6 col-lg-5 mb-lg-0 mb-4 divspider-animate" data-animate="fade-in-up"  data-duration="200">
+							<div class="widget-wrap about-widget">	
+								<img src="images/footer-logo.png" class="img-fluid" alt="Footer Logo">
+							</div><!--.widget-wrap -->
+						</div><!-- .col -->
+						<div class="col-md-6 col-lg-2 mb-lg-0 mb-4">
+							<div class="widget-wrap company-links-widget divspider-animate" data-animate="fade-in-up"  data-duration="200">								
+								<h2 class="widget-title">Product</h2>								
+								<div class="widget-content">
+									<ul class="nav flex-column icon-nav">
+										<li class="nav-item"><a href="#" class="nav-link">Overview</a></li>
+										<li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+										<li class="nav-item"><a href="#" class="nav-link">Tutorials</a></li>
+										<li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+										<li class="nav-item"><a href="#" class="nav-link">Releases</a></li>
+									</ul>
+								</div><!--.widget-content -->
+							</div><!--.widget-wrap -->
+						</div><!-- .col -->
+						<div class="col-md-6 col-lg-2 mb-lg-0 mb-4">
+							<div class="widget-wrap company-links-widget divspider-animate" data-animate="fade-in-up"  data-duration="200">								
+								<h2 class="widget-title">Company</h2>								
+								<div class="widget-content">
+									<ul class="nav flex-column icon-nav">
+										<li class="nav-item"><a href="#" class="nav-link">About</a></li>
+										<li class="nav-item"><a href="#" class="nav-link">Press</a></li>
+										<li class="nav-item"><a href="#" class="nav-link">Careers</a></li>
+										<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+										<li class="nav-item"><a href="#" class="nav-link">Partners</a></li>
+									</ul>
+								</div><!--.widget-content -->
+							</div><!--.widget-wrap -->
+						</div><!-- .col -->
+						<div class="col-md-6 col-lg-2 mb-lg-0 mb-4">
+							<div class="widget-wrap company-links-widget divspider-animate" data-animate="fade-in-up"  data-duration="200">								
+								<h2 class="widget-title">Support</h2>								
+								<div class="widget-content">
+									<ul class="nav flex-column icon-nav">
+										<li class="nav-item"><a href="#" class="nav-link">Help Center</a></li>
+										<li class="nav-item"><a href="#" class="nav-link">Terms of service</a></li>
+										<li class="nav-item"><a href="#" class="nav-link">Legal</a></li>
+										<li class="nav-item"><a href="#" class="nav-link">Privacy Policy</a></li>
+										<li class="nav-item"><a href="#" class="nav-link">Status</a></li>
+									</ul>
+								</div><!--.widget-content -->
+							</div><!--.widget-wrap -->
+						</div><!-- .col -->						
+					</div>
+				</div>
+			</div>
+		
+			<div class="footer-bottom position-relative pb-4 pt-4">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-md-auto mb-2 mb-md-0 text-center text-md-left">
+							<p class="text-center mb-0">&copy; 2023 GRIT DIGITECH. All rights reserved.</p>
+						</div>
+						<div class="col-md align-self-center mt-md-0">
+							<div class="footer-menu-wrap">
+								<ul class="nav social-icons justify-content-center justify-content-md-end">
+									<li class="nav-item"><a href="#" class="instagram-icon"><span class="bi bi-instagram small-icon"></span></a></li>
+									<li class="nav-item"><a href="#" class="facebook-icon"><span class="bi bi-facebook small-icon"></span></a></li>
+									<li class="nav-item"><a href="#" class="twitter-icon"><span class="bi bi-twitter small-icon"></span></a></li>
+									<li class="nav-item"><a href="#" class="youtube-icon"><span class="bi bi-youtube small-icon"></span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+			<a href="#" class="back-to-top" id="back-to-top"><i class="ti-angle-up"></i></a>
+			
+		</footer><!--footer-->
+		
+		<!-- jQuery Library -->
+		<script src="js/jquery.min.js"></script>
+		<!-- jQuery Appear -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- jQuery Appear -->
+		<script src="js/jquery.appear.js"></script>
+		<!-- Maginific Popup -->
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<!-- Owl Carousel -->
+		<script src="js/owl.carousel.min.js"></script>	
+		<!-- Owl Thumbs -->
+		<script src="js/owl.carousel.thumbs.js"></script>
+		<!-- Parallax -->
+		<script src="js/parallaxie.js"></script>
+		<!-- Circle Progress -->
+		<script src="js/jquery.circle.progress.min.js"></script>
+		<!-- Day Counter -->
+		<script src="js/jquery.countdown.min.js"></script>
+		<!-- Isotope Masonry -->
+		<script src="js/isotope.pkgd.min.js"></script>
+		<!-- Bootstrap Validator -->
+		<script src="js/validator.min.js"></script>
+		<!-- Divspider Floating Parallax -->
+		<script src="js/divspider-float-parallax.js"></script>
+		<!-- Divspider Element Parallax -->
+		<script src="js/divspider-element-parallax.js"></script>
+		<!-- Particles and Particles Config App -->
+		<script src="js/particles.min.js"></script>
+		<script src="js/particles.app.js"></script>
+		<!-- YT Player -->
+		<script src="js/jquery.mb.YTPlayer.min.js"></script>
+		<!-- Theme Scripts -->
+		<script src="js/theme.js"></script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBtkY02zM_XV3XtSzJbNwJdiA2iuNmP_bI&callback=init_bailparole_gmap"></script>
+		
+	</body>
 </html>
